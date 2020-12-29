@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="My first PWA" />
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#b71c1c" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" href="assets/image/icons/icon-192x192.png">
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <title>Manchester United</title>
+</head>
+<body>
+    
+    <!-- Navigasi --> 
+    <nav class=" red darken-4" role="navigation">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo " id="logo-container">
+                    <img class="responsive-img hide-on-med-and-down" width="40" src="assets/image/logo.png">MUTD</a>
+                <a href="#" class="sidenav-trigger " data-target="nav-mobile">☰</a>
+        
+                <ul class="topnav right hide-on-med-and-down"></ul>
+                <ul class="sidenav" id="nav-mobile"></ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Akhir Navigasi -->
+    
+    <!-- Content -->
+    <div id="body-content"></div>
+
+    <!-- Footer -->
+    <footer class="page-footer red darken-3">
+        <div class="footer-copyright">
+            <div class="container center">
+                © 2020 Submission 1 Dicoding
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Js -->
+    <script src="assets/js/materialize.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/register-service-worker.js"></script>
+    
+</body>
+</html>
